@@ -30,3 +30,8 @@ body, a:link, a:visited, a:active{
   border-radius:10px;
   position:absolute;
 }
+.spidey {
+  border:none;
+  border-radius:none;
+  position:absolute;
+}
