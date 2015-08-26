@@ -8,6 +8,8 @@ var Dancer = function(top, left, timeBetweenSteps){
   // this one sets the position to some random default point within the body
   this.step();
   this.setPosition(top, left);
+  this.top = top;
+  this.left = left;
 };
 
 Dancer.prototype.step = function(){
@@ -27,4 +29,9 @@ Dancer.prototype.setPosition = function(top, left){
     left: left
   };
   this.$node.css(styleSettings);
+};
+
+Dancer.prototype.lineUp = function(){
+  this.left = 100;
+  this.setPosition(this.top, this.left);
 };

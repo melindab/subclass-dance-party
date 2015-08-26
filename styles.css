@@ -4,6 +4,11 @@ body, html{
 body{
   margin: 0px;
   background-color:#444;
+  background-image: url(http://www.chaircoversonline.co.uk/images/LED%20VIDS/LED16.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
@@ -30,8 +35,28 @@ body, a:link, a:visited, a:active{
   border-radius:10px;
   position:absolute;
 }
-.spidey {
+.gif-dancer {
   border:none;
   border-radius:none;
   position:absolute;
+}
+.spidey {
+  width: 256px;
+  height: 256px;
+}
+.carlton {
+  width: 200px;
+  height: auto;
+}
+.cat {
+  width: 100px;
+  height: auto;
+}
+.bigCat {
+  width: 200px;
+  height: auto;
+}
+.lineUpButton {
+  padding:5px 12px;
+  float: left;
 }
